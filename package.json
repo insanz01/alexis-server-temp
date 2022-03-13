@@ -1,0 +1,36 @@
+{
+  "name": "alexis-server",
+  "version": "1.0.0",
+  "description": "Alexi API",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git https://gitlab.com/onggie000/alexis1.git"
+  },
+  "author": "Onggie",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "bcrypt": "^5.0.1",
+    "cookie-session": "^2.0.0",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.0.0",
+    "dateformat": "^4.5.1",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "midtrans-client": "^1.2.3",
+    "multer": "^1.4.2",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.5.0",
+    "path": "^0.12.7",
+    "sharp": "^0.29.3",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
